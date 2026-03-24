@@ -1,14 +1,22 @@
 [
   {
     "name": "BMW Group",
-    "logo": "/assets/logos/bmw.png"
+    "logo": "logos/bmw.png"
   },
   {
     "name": "Porsche",
-    "logo": "assets/logos/porsche.png"
+    "logo": "logos/porsche.png"
   },
-  {
-    "name": "VW Group",
-    "logo": "assets/logos/vw.png"
+   {
+    "name": "Join Experiences",
+    "logo": "logos/join.png"
+  },
+   {
+    "name": "TLF",
+    "logo": "logos/tlf.jpg"
+  },
+   {
+    "name": "Wevioo",
+    "logo": "logos/wevioo.png"
   }
 ]
