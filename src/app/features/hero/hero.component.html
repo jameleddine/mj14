@@ -1,0 +1,102 @@
+<section class="min-h-screen flex items-center justify-center px-6 py-16">
+<!-- THEME TOGGLE BUTTON -->
+<div class="absolute top-6 right-6">
+  <button 
+    (click)="toggleTheme()"
+    class="bg-gray-800 dark:bg-gray-700 px-4 py-2 rounded-xl text-sm hover:opacity-80 transition"
+  >
+    {{ theme.isDarkMode() ? '☀️ Light' : '🌙 Dark' }}
+  </button>
+</div>
+  <div class="max-w-6xl w-full grid md:grid-cols-2 gap-12 items-center">
+
+    <!-- LEFT: TEXT -->
+    <div>
+
+      <!-- FULL NAME -->
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">
+        Jamel Eddine MEJRI
+      </h1>
+
+      <h2 class="text-lg md:text-xl text-gray-300 dark:text-white mb-6">
+        Technical Lead • AWS Certified • Automotive Software Engineer
+      </h2>
+
+      <p class="text-gray-400 dark:text-white mb-8 leading-relaxed">
+        Building scalable connected vehicle services and high-performance cloud systems
+        for global automotive leaders like BMW and Porsche.
+      </p>
+
+      <!-- CTA BUTTONS -->
+      <div class="flex flex-wrap gap-4 mb-8">
+
+        <!-- Contact Button -->
+        <a 
+          href="#contact"
+          class="bg-accent px-6 py-2 rounded-xl font-medium hover:opacity-90 transition"
+        >
+          Contact Me
+        </a>
+
+        <!-- Download CV -->
+        <a 
+          href="assets/CV_JamelEddine.pdf"
+          download
+          class="border border-gray-600 px-6 py-2 rounded-xl hover:bg-gray-800 transition"
+        >
+          Download CV
+        </a>
+
+      </div>
+
+      <!-- CONTACT INFO -->
+      <div class="space-y-2 text-sm text-gray-400 dark:text-white">
+
+        <p>📍 Menzel Bourguiba, Tunisia</p>
+
+        <p>
+          📧 
+          <a href="mailto:mejri.jameleddine@gmail.com" class="hover:text-accent">
+            mejri.jameleddine@gmail.com
+          </a>
+        </p>
+
+        <p>📞 55 871 079</p>
+
+        <p>
+          🔗 
+          <a 
+            href="https://www.linkedin.com/in/jameleddinemejri" 
+            target="_blank"
+            class="hover:text-accent"
+          >
+            linkedin.com/in/jameleddinemejri
+          </a>
+        </p>
+
+      </div>
+
+    </div>
+
+    <!-- RIGHT: AVATAR -->
+    <div class="flex justify-center">
+
+      <div class="relative">
+
+        <!-- Glow -->
+        <div class="absolute inset-0 bg-accent blur-2xl opacity-20 rounded-full"></div>
+
+        <!-- Avatar -->
+        <img
+          src="https://i.pravatar.cc/300"
+          alt="Profile"
+          class="w-64 h-64 object-cover rounded-full border-4 border-gray-800 shadow-xl"
+        />
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>

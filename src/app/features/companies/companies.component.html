@@ -1,0 +1,10 @@
+<section class="py-12 bg-black">
+  <div class="flex flex-wrap justify-center gap-10 items-center opacity-80">
+    <img
+      *ngFor="let company of companies"
+      [src]="company.logo"
+      [alt]="company.name"
+      class="h-12 grayscale hover:grayscale-0 transition"
+    />
+  </div>
+</section>

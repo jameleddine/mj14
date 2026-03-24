@@ -1,0 +1,39 @@
+<section class="py-24 px-6 max-w-5xl mx-auto">
+
+  <!-- Title -->
+  <h2 class="text-4xl font-bold mb-16 text-center">
+    Experience
+  </h2>
+
+  <!-- Timeline -->
+  <div class="relative border-l border-gray-700">
+
+    <div *ngFor="let exp of experiences; let i = index" class="mb-12 ml-6">
+
+      <!-- Dot -->
+      <span class="absolute w-4 h-4 bg-accent rounded-full -left-2.5 border border-white"></span>
+
+      <!-- Card -->
+      <div class=" p-6 rounded-2xl shadow-lg">
+
+        <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+          {{ exp.role }}
+        </h3>
+
+        <p class="text-accent text-sm mb-2">
+          {{ exp.company }} • {{ exp.period }}
+        </p>
+
+        <ul class=" text-sm space-y-2 mt-4">
+          <li *ngFor="let item of exp.description">
+            • {{ item }}
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>

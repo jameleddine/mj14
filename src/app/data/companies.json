@@ -1,0 +1,14 @@
+[
+  {
+    "name": "BMW Group",
+    "logo": "/assets/logos/bmw.png"
+  },
+  {
+    "name": "Porsche",
+    "logo": "assets/logos/porsche.png"
+  },
+  {
+    "name": "VW Group",
+    "logo": "assets/logos/vw.png"
+  }
+]

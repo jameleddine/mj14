@@ -1,0 +1,8 @@
+[
+  {
+    "title": "Connected Vehicle Monitoring Platform",
+    "description": "Real-time monitoring system for automotive backend services",
+    "impact": "Improved incident detection and service reliability",
+    "tech": ["AWS", "Grafana", "Prometheus", "Docker"]
+  }
+]
