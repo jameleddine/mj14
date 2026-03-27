@@ -1,5 +1,11 @@
 [
   {
+    "title": "Backend Integration and Observability",
+    "description": "Deployment and integration of backend services with observability tools",
+    "impact": "Problem solving and performance optimization through enhanced monitoring",
+    "tech": ["Copilot", "Kibana", "NodeJS", "Docker"]
+  },
+  {
     "title": "Connected Vehicle Monitoring Platform",
     "description": "Real-time monitoring system for automotive backend services",
     "impact": "Improved incident detection and service reliability",

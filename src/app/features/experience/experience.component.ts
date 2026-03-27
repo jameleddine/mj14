@@ -23,7 +23,7 @@ export class ExperienceComponent {
     {
       company: "BMW Group",
       role: "DevOps / Technical Lead",
-      period: "2021 - 2025",
+      period: "2022 - 2025",
       description: [
         "Developed scalable backend services and web applications",
         "Improved system observability using Grafana, Dynatrace, and Kibana",
@@ -34,7 +34,7 @@ export class ExperienceComponent {
     {
       company: "TLF",
       role: "Scrum Master",
-      period: "2021",
+      period: "2020-2021",
       description: [
         "Managed Agile processes and sprint planning",
         "Defined functional requirements and technical constraints",
@@ -49,6 +49,16 @@ export class ExperienceComponent {
         "Built React components and integrated APIs",
         "Implemented real-time tracking and geolocation features",
         "Worked on 3D visualization of buildings and floors"
+      ]
+    },
+    {
+      company: "Wevioo",
+      role: "Fullstack Engineer",
+      period: "2016 - 2029",
+      description: [
+        "Template’s creation and rest API integration",
+        "AngularJS integration in Drupal 7",
+        "Worked on Ionic mobile application development"
       ]
     }
   ];

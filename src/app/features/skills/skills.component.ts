@@ -18,5 +18,5 @@ import { CommonModule } from '@angular/common';
   `
 })
 export class SkillsComponent {
-  skills = ['AWS', 'Docker', 'Grafana', 'Prometheus', 'Angular', 'Java'];
+  skills = ['Project Management','Team Leadership','AI Tools Utilization','Kubernetes', 'Angular', 'Java', 'AWS', 'Docker', 'Grafana', 'Prometheus'];
 }
